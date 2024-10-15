@@ -21,8 +21,16 @@
 
 ## [Jedi](github.com/davidhalter/jedi) Autocompletion
 
-<img src="parso-logo.png" alt="Parso Logo" height="350" />
-<img src="jedi-logo.png" alt="Jedi Logo" height="350" />
+<table>
+    <tr>
+        <td>
+            <img src="parso-logo.png" alt="Parso Logo" height="350" />
+        </td>
+        <td>
+            <img src="jedi-logo.png" alt="Jedi Logo" height="350" />
+        </td>
+    </tr>
+</table>
 
 Note:
 - 2012
@@ -49,35 +57,40 @@ Do not underestimate me, it will be finished
 
 ---
 
-### Enter ZubanLS
+### Goal: ZubanLS
 
 - A Python Language Server written in Rust
 - <a href="https://zubanls.com">zubanls.com</a>
-- Twitter/GitHub: @ZubanLS
+- Twitter/GitHub: <a href="https://twitter.com/ZubanLS">@ZubanLS</a>
 
 ---
 
 ## zmypy
 
-```
-zmypy --config-file mypy_self_check.ini mypy/
+```sh
+zmypy foobar --strict --warn-unreachable
 ```
 
-- 50 times faster than Mypy (without caches)
+- 0.9s vs 40s when type checking Mypy (no cache)
+- Single Thread (optimizable)
 - Supports most mypy flags and features
-- Reducing false positives (bugs)
+- Reducing false positives (in one week 1500 -> 200)
 
 ---
 
 ## Outlook
 
-- Probably not Open Source
-- zmypy is available very soon, Language Server might not be
+- Probably not Open Source (But fallback to Mypy)
+- zmypy is available very soon
+- Language Server hopefully in 2025
 - Let's discuss your use cases
 
 ---
 
 ## Questions?
+
+- <a href="https://zubanls.com">zubanls.com</a>
+- Twitter/GitHub: <a href="https://twitter.com/ZubanLS">@ZubanLS</a>
                   </textarea>
                 </section>
 			</div>
@@ -148,7 +161,7 @@ zmypy --config-file mypy_self_check.ini mypy/
         <!-- 2. Create hidden header/footer <div> -->
         <div id="hidden" style="display:none;">
             <div id="header">
-                <div id="footer-right"><a href="https://zubanls.com">zubanls.com</a>&ndash; Twitter/GitHub: @zubanls</div>
+                <div id="footer-right"><a href="https://zubanls.com">zubanls.com</a>&ndash; Twitter/GitHub: <a href="https://twitter.com/ZubanLS">@ZubanLS</a></div>
             </div>
         </div>
 
